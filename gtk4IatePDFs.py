@@ -544,7 +544,7 @@ class PdfToolWindow(Adw.ApplicationWindow):
 
 class PdfToolApp(Adw.Application):
     def __init__(self, **kwargs):
-        super().__init__(application_id="com.github.julien.pdftoolkit", **kwargs)
+        super().__init__(application_id="io.github.JulienGrdn.IatePDFs", **kwargs)
     
     def do_activate(self):
         # THE FIX: Use shutil.which() for a robust and correct dependency check.
