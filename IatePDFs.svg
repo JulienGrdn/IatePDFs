@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   fill="#000000"
+   height="1390"
+   width="1390"
+   version="1.1"
+   id="Layer_1"
+   viewBox="0 0 889.6 889.6"
+   xml:space="preserve"
+   sodipodi:docname="pacman-svgrepo-com.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs8" /><sodipodi:namedview
+   id="namedview8"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.20523864"
+   inkscape:cx="-913.57065"
+   inkscape:cy="214.38458"
+   inkscape:window-width="1920"
+   inkscape:window-height="1011"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+
+
+
+
+<g
+   id="g11"
+   transform="translate(976.70216,383.86088)"><rect
+     style="opacity:1;fill:#f0f0e6;fill-opacity:1;stroke:none;stroke-width:8.37707;stroke-linecap:round;stroke-linejoin:round"
+     id="rect10"
+     width="889.59998"
+     height="889.59998"
+     x="-976.70215"
+     y="-383.86087"
+     ry="363.64127" /><g
+     id="g10"
+     transform="translate(-903.99197,675.05306)"><g
+       id="g9"
+       transform="matrix(0.66294933,0,0,0.66294933,1061.5395,-983.21941)"><path
+         style="fill:#e2e5e7"
+         d="m -927.22898,7.3063561 c -17.6,0 -32,14.3999999 -32,31.9999999 V 487.30636 c 0,17.6 14.4,32 32,32 h 320 c 17.6,0 32,-14.4 32,-32 v -352 l -128,-128.0000039 z"
+         id="path1" /><path
+         style="fill:#b0b7bd"
+         d="m -671.22898,135.30636 h 96 l -128,-128.0000039 V 103.30636 c 0,17.6 14.4,32 32,32 z"
+         id="path2" /><polygon
+         style="fill:#cad1d8"
+         points="384,128 480,128 480,224 "
+         id="polygon2"
+         transform="translate(-1055.229,7.3063561)" /><path
+         style="fill:#f15642"
+         d="m -895.22898,396.42636 c 0,8.8 7.2,16 16,16 h 352 c 8.8,0 16,-7.2 16,-16 v -160 c 0,-8.8 -7.2,-16 -16,-16 h -352 c -8.8,0 -16,7.2 -16,16 z"
+         id="path3" /><g
+         id="g6-7"
+         transform="translate(-925.94898,-19.573644)">
+	<path
+   style="fill:#ffffff"
+   d="m 101.744,303.152 c 0,-4.224 3.328,-8.832 8.688,-8.832 h 29.552 c 16.64,0 31.616,11.136 31.616,32.48 0,20.224 -14.976,31.488 -31.616,31.488 h -21.36 v 16.896 c 0,5.632 -3.584,8.816 -8.192,8.816 -4.224,0 -8.688,-3.184 -8.688,-8.816 z m 16.88,7.28 v 31.872 h 21.36 c 8.576,0 15.36,-7.568 15.36,-15.504 0,-8.944 -6.784,-16.368 -15.36,-16.368 z"
+   id="path4" />
+	<path
+   style="fill:#ffffff"
+   d="m 196.656,384 c -4.224,0 -8.832,-2.304 -8.832,-7.92 v -72.672 c 0,-4.592 4.608,-7.936 8.832,-7.936 h 29.296 c 58.464,0 57.184,88.528 1.152,88.528 z m 8.064,-72.912 V 368.4 h 21.232 c 34.544,0 36.08,-57.312 0,-57.312 z"
+   id="path5" />
+	<path
+   style="fill:#ffffff"
+   d="m 303.872,312.112 v 20.336 h 32.624 c 4.608,0 9.216,4.608 9.216,9.072 0,4.224 -4.608,7.68 -9.216,7.68 h -32.624 v 26.864 c 0,4.48 -3.184,7.92 -7.664,7.92 -5.632,0 -9.072,-3.44 -9.072,-7.92 v -72.672 c 0,-4.592 3.456,-7.936 9.072,-7.936 h 44.912 c 5.632,0 8.96,3.344 8.96,7.936 0,4.096 -3.328,8.704 -8.96,8.704 h -37.248 z"
+   id="path6-5" />
+</g><path
+         style="fill:#cad1d8"
+         d="m -879.22898,412.42636 h 304 v 16 h -304 c -8.8,0 -16,-7.2 -16,-16 v -16 c 0,8.8 7.2,16 16,16 z"
+         id="path7" /></g><g
+       id="g8"
+       transform="translate(169.74758,-1059.975)"
+       style="fill:#ff0000">
+	<g
+   id="g7"
+   style="fill:#ff0000">
+		<path
+   d="M 423.609,362.516 263.837,256 423.609,149.484 c 3.685,-2.456 6.25,-6.283 7.109,-10.625 0.869,-4.348 -0.022,-8.859 -2.489,-12.544 C 384.696,61.163 311.989,22.261 233.739,22.261 104.859,22.261 0,127.114 0,256 c 0,128.886 104.859,233.739 233.739,233.739 78.25,0 150.957,-38.902 194.489,-104.054 2.468,-3.685 3.359,-8.195 2.489,-12.544 -0.859,-4.342 -3.424,-8.168 -7.108,-10.625 z M 283.826,105.739 c 9.22,0 16.696,7.475 16.696,16.696 0,9.22 -7.475,16.696 -16.696,16.696 -9.22,0 -16.696,-7.475 -16.696,-16.696 0,-9.221 7.476,-16.696 16.696,-16.696 z"
+   id="path6"
+   style="fill:#ff0000" />
+	</g>
+</g><circle
+       style="opacity:1;fill:#ffffff;stroke:#f2f2f2;stroke-width:7.232;stroke-linecap:round;stroke-linejoin:round"
+       id="path8"
+       cx="451.99612"
+       cy="-937.68878"
+       r="24.897503" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:314.274px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#000000;stroke:none;stroke-width:18.4964;stroke-linecap:round;stroke-linejoin:round"
+       x="4.3896022"
+       y="-307.30957"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#000000;stroke:none;stroke-width:18.4964"
+         x="4.3896022"
+         y="-307.30957">PDFs</tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:314.274px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:18.4964;stroke-linecap:round;stroke-linejoin:round"
+       x="4.3896022"
+       y="-683.17065"
+       id="text10-7"><tspan
+         sodipodi:role="line"
+         id="tspan10-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;fill:#000000;stroke:none;stroke-width:18.4964"
+         x="4.3896022"
+         y="-683.17065">I</tspan></text></g></g></svg>
