@@ -194,12 +194,6 @@ Contributions are welcome! Here are some ways you can contribute:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
-
-**Julien Grondin**
-- GitHub: [@juliengrdn](https://github.com/juliengrdn)
-- Website: https://github.com/juliengrdn/iatepdfs
-
 ## Acknowledgments
 
 - GTK and GNOME teams for the excellent toolkit and design guidelines
