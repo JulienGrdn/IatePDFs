@@ -44,32 +44,12 @@ A modern, user-friendly GTK4 application for manipulating PDF files on Linux. Wi
 
 #### Fedora/RHEL
 ```bash
-sudo dnf install python3-gobject gtk4 libadwaita python3-pip ghostscript poppler-utils
+dnf copr enable juliengrdn/IatePDFs
+sudo dnf install iatepdfs
 ```
 
-#### Ubuntu/Debian
-```bash
-sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-4.0 gir1.2-adw-1 python3-pip ghostscript poppler-utils
-```
 
-#### Arch Linux
-```bash
-sudo pacman -S python-gobject gtk4 libadwaita python-pip ghostscript poppler
-```
 
-### Python Dependencies
-
-Install the required Python packages:
-
-```bash
-pip install pypdf pdf2image
-```
-
-Or use the requirements file:
-
-```bash
-pip install -r requirements.txt
-```
 
 ### Running the Application
 
@@ -133,25 +113,6 @@ chmod +x IAtePDFs.py
 - **pdf2image**: Wrapper around pdftoppm and pdftocairo for rendering PDF pages
 - **Ghostscript**: PostScript interpreter for PDF compression
 
-### Application Structure
-
-```
-IAtePDFs.py
-├── DraggableMixin: Drag-and-drop functionality
-├── PdfFileRow: List item for PDF files with preview
-├── PdfPageWidget: Page thumbnail widget with reordering
-├── PdfToolWindow: Main application window
-└── PdfToolApp: Application class
-```
-
-### Features Implementation
-
-- **Drag-and-Drop**: Custom mixin class providing universal DnD for reordering
-- **Async Previews**: Threaded thumbnail generation to keep UI responsive
-- **Error Handling**: Comprehensive error messages and graceful degradation
-- **Single Instance**: Proper application lifecycle management
-- **Modern UI**: Follows GNOME Human Interface Guidelines
-
 ## Configuration
 
 The application stores no configuration files and maintains no persistent state between sessions. All operations work directly on the files you provide.
@@ -173,23 +134,6 @@ Make sure all Python dependencies are installed:
 pip install pypdf pdf2image
 ```
 
-## Contributing
-
-Contributions are welcome! Here are some ways you can contribute:
-
-- Report bugs and issues
-- Suggest new features or improvements
-- Submit pull requests with bug fixes or new features
-- Improve documentation
-
-### Development Setup
-
-1. Clone the repository
-2. Install dependencies (see Installation section)
-3. Make your changes
-4. Test thoroughly on your system
-5. Submit a pull request
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -201,36 +145,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - pypdf and pdf2image library authors
 - Ghostscript developers
 
-## Changelog
-
-### Version 1.0
-- Initial release
-- PDF merging with drag-and-drop reordering
-- PDF compression with quality presets
-- PDF splitting into individual pages
-- Page reordering and deletion
-- Live preview thumbnails
-- Modern GTK4/Libadwaita interface
-
-## Roadmap
-
-Potential future features:
-- [ ] Rotate individual pages
-- [ ] Extract specific page ranges
-- [ ] Add watermarks
-- [ ] PDF metadata editing
-- [ ] Batch operations
-- [ ] PDF encryption/decryption support
-- [ ] Dark mode preference
-- [ ] Custom compression settings
-
-## Support
-
-If you encounter any issues or have questions:
-1. Check the Troubleshooting section
-2. Search existing GitHub issues
-3. Create a new issue with details about your problem
-
----
-
-Made with ❤️ for the Linux desktop
