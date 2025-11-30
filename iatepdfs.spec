@@ -51,6 +51,7 @@ Icon=iatepdfs
 Terminal=false
 Type=Application
 Categories=Utility;Office;GTK;
+StartupWMClass=com.github.juliengrdn.iatepdfs
 StartupNotify=true
 EOF
 
