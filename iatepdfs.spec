@@ -50,7 +50,7 @@ Exec=iatepdfs
 Icon=iatepdfs
 Terminal=false
 Type=Application
-Categories=Utility;Office;GTK;
+Categories=Utility;Office;GTK;PDF;
 StartupWMClass=com.github.juliengrdn.iatepdfs
 StartupNotify=true
 EOF
