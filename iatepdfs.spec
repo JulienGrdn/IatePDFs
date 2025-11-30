@@ -1,6 +1,6 @@
 Name:           iatepdfs
 Version:        1.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        A modern GTK4 application for PDF manipulation
 License:        MIT
 URL:            https://github.com/JulienGrdn/IatePDFs
