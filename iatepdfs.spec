@@ -1,9 +1,9 @@
-Name:           iatepdfs
-Version:        1.1
+Name:           hungryipscanner
+Version:        1.0
 Release:        2%{?dist}
-Summary:        A modern GTK4 application for PDF manipulation
+Summary:        A simple utility for scanning IP addresses over the local network
 License:        MIT
-URL:            https://github.com/JulienGrdn/IatePDFs
+URL:            https://github.com/JulienGrdn/hungryipscanner
 Source0:        %{url}/archive/main.tar.gz
 
 BuildArch:      noarch
@@ -13,55 +13,52 @@ Requires:       python3
 Requires:       gtk4
 Requires:       libadwaita
 Requires:       python3-gobject
-Requires:       ghostscript
-Requires:       poppler-utils
-
-# Python libraries available in Fedora
-Requires:       python3-pypdf
-Requires:       python3-pdf2image
+Requires:       hicolor-icon-theme
 
 %description
-I ate PDFs is a modern, user-friendly GTK4 application for manipulating PDF
-files on Linux. It features an intuitive drag-and-drop interface to merge,
-compress, split, and reorder PDF documents.
+Hungry IP Scanner is a simple utility for scanning IP addresses over the local
+network. It provides a GUI built with GTK 4 and Libadwaita to display active
+hosts on the network.
 
 %prep
-%autosetup -n IatePDFs-main
+# NOTE: Ensure this matches your GitHub repo casing (hungryipscanner vs HungryIPScanner)
+%autosetup -n hungryipscanner-main
 
 %build
 # Nothing to build for a pure Python script
 
 %install
-# 1. Install the main script
+# 1. Install the main script with EXECUTABLE permissions (This fixes your error)
 mkdir -p %{buildroot}%{_bindir}
-install -m 0755 IAtePDFs.py %{buildroot}%{_bindir}/iatepdfs
+install -m 0755 hungryip.py %{buildroot}%{_bindir}/hungryipscanner
 
 # 2. Install the icon
+# We verify the source filename is 'hungryipscannerlogo.svg' and rename it to standard 'hungryipscanner.svg'
 mkdir -p %{buildroot}%{_datadir}/icons/hicolor/scalable/apps
-install -m 0644 IatePDFs.svg %{buildroot}%{_datadir}/icons/hicolor/scalable/apps/iatepdfs.svg
+install -m 0644 hungryipscannerlogo.svg %{buildroot}%{_datadir}/icons/hicolor/scalable/apps/hungryipscanner.svg
 
-# 3. Create a Desktop Entry so it appears in the App Menu
+# 3. Create a Desktop Entry manually
+# This ensures Exec and Icon names match exactly what we installed above
 mkdir -p %{buildroot}%{_datadir}/applications
-cat > %{buildroot}%{_datadir}/applications/iatepdfs.desktop <<EOF
+cat > %{buildroot}%{_datadir}/applications/hungryipscanner.desktop <<EOF
 [Desktop Entry]
-Name=I ate PDFs
-Comment=Merge, compress, and split PDFs
-Exec=iatepdfs
-Icon=iatepdfs
+Name=Hungry IP Scanner
+Comment=Scan local network for active hosts
+Exec=hungryipscanner
+Icon=hungryipscanner
 Terminal=false
 Type=Application
-Categories=Utility;Office;GTK;PDF;
-StartupWMClass=com.github.juliengrdn.iatepdfs
+Categories=Utility;Network;GTK;
+StartupWMClass=hungryipscanner
 StartupNotify=true
 EOF
 
 %files
 %license LICENSE
 %doc README.md
-%{_bindir}/iatepdfs
-%{_datadir}/applications/iatepdfs.desktop
-%{_datadir}/icons/hicolor/scalable/apps/iatepdfs.svg
+%{_bindir}/hungryipscanner
+%{_datadir}/applications/hungryipscanner.desktop
+%{_datadir}/icons/hicolor/scalable/apps/hungryipscanner.svg
 
 %changelog
-* Fri Nov 28 2024 JulienGrdn - 1.0-1
-- Initial packaging for Copr
+* Mon Dec 01 2025 Julien Grondin - 1.0-2
