@@ -137,11 +137,3 @@ pip install pypdf pdf2image
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- GTK and GNOME teams for the excellent toolkit and design guidelines
-- PyGObject maintainers for Python bindings
-- pypdf and pdf2image library authors
-- Ghostscript developers
-
