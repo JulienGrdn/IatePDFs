@@ -64,4 +64,4 @@ EOF
 
 %changelog
 * Fri Nov 28 2024 JulienGrdn - 1.0-1
-- Initial packaging for Copr
+- Bug fix: Icon did not display
