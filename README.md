@@ -3,6 +3,7 @@
 A modern, user-friendly GTK4 application for manipulating PDF files on Linux. With an intuitive drag-and-drop interface, I ate PDFs makes it easy to merge, compress, split, and reorder PDF documents.
 
 ![I ate PDFs](IatePDFs.svg)
+Vectors and icons by <a href="https://www.svgrepo.com" target="_blank">SVG Repo</a>
 
 ## Features
 
